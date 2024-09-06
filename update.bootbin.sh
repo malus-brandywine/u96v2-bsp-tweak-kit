@@ -57,5 +57,6 @@ petalinux-package -p ${PETALINUX_PROJ} --boot \
 --atf ${DEPLOY_DIR}/bl31.elf \
 --pmufw ${DEPLOY_DIR}/pmufw.elf \
 --u-boot ${DEPLOY_DIR}/u-boot.elf \
+--output ${DEPLOY_DIR}/BOOT.BIN \
 --force
 
